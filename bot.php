@@ -17,10 +17,6 @@ if (!is_null($events['events'])) {
 			$text = $event['message']['text'];
 			// Get replyToken
 			$replyToken = $event['replyToken'];
-
-			$query="INSERT INTO input_message ('message','receiver') Value (".$text.",'Jobmyway')";
-			$result=mysql_query($query);
-			
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
