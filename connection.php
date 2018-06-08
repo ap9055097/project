@@ -1,5 +1,5 @@
 <?php
-$servername = "sql14.main-hosting.eu";//"mysql.hostinger.in.th";
+$servername = "mysql.hostinger.in.th";//"mysql.hostinger.in.th";
 
 $username = "u662042545_exc";
 $password = "ac81c8b1%";
