@@ -1,7 +1,7 @@
 
 <?php
 $access_token = 'bwLr+NAIExfS1R/pc0NkTVvsi8ftgrwAwuwy3zCtomp3ZuBAYvqb6G7Xf6ZSxoTSkmCluVXDjE+Iu5TFZY2sGa0ZrsZ664ST/bf+AnDEUxxXH8jHGz7Cepf3tfDE/5vyPnYV1NXjTdBpoj31fsJPbAdB04t89/1O/w1cDnyilFU=';
-require("connection.php");
+//require("connection.php");
 
 // Get POST body content
 $content = file_get_contents('php://input');
