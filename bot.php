@@ -18,6 +18,17 @@ if (!is_null($events['events'])) {
 			$text = $event['message']['text'];
 			// Get replyToken
 			$replyToken = $event['replyToken'];
+			
+			
+
+			$text_to_segment = trim($text);
+			include(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'THSplitLib/segment.php');
+            $segment = new Segment();
+            //echo '<hr/>';
+            $result = $segment->get_segment_array($text_to_segment);
+            
+			$text = implode(',', $result);
+
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
