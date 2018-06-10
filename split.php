@@ -59,6 +59,7 @@
     <div style="clear:both"></div>
     <div style="width:800px;">
         <?php
+        echo __DIR__ .'<br>'.__FILE__.'<br>';
         if ($_POST) {
             
             $time_start = microtime(true);
