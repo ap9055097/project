@@ -30,8 +30,9 @@ sasasasasssaas
 asdasdasdawwwwwwwsssssssssss
 <?php
 if(isset($_REQUEST['g-recaptcha-response'])) print_r($_REQUEST['g-recaptcha-response']);
+
 ?>
-<form action="#" mathod="post">
+<form action="#" method="post">
 <div class="g-recaptcha" data-sitekey="6Lf3IGEUAAAAAJyK9DE3jerCcq7l6L7csBAA8Mbg"></div>
 <button type="submit">testsetsetse</button>
 <form>
