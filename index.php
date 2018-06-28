@@ -28,9 +28,12 @@ sasasasasssaas
   page_id="185117042183190">
 </div>
 asdasdasdawwwwwwwsssssssssss
+<?php
+if(isset($_POST)) print_r($_POST);
+?>
 <form action="#" mathod="post">
 <div class="g-recaptcha" data-sitekey="6Lf3IGEUAAAAAJyK9DE3jerCcq7l6L7csBAA8Mbg"></div>
-<button type="submit"><button>
+<button type="submit">testsetsetse<button>
 <form>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script type="text/javascript">
