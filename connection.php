@@ -1,17 +1,10 @@
 <?php
 //"31.220.110.3";//
 
-$servername = "mysql.hostinger.in.th";
-$username = "u662042545_exc";
-$password = "ac81c8b1%";
-$db = "u662042545_chat";
-
-/*
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "peerapat";
-*/
+$servername = "150.95.24.63";
+$username = "cbl_edd";
+$password = "bHrk813@";
+$db = "lxac_chat_bot";
 
 $conn = mysqli_connect($servername, $username, $password,$db,'3306','mysql');
 
