@@ -29,7 +29,7 @@ sasasasasssaas
 </div>
 asdasdasdawwwwwwwsssssssssss
 <?php
-if(isset($_REQUEST['g-recaptcha-response'])) print_r($_REQUEST['g-recaptcha-response']);
+if(isset($_POST['g-recaptcha-response'])) print_r($_POST['g-recaptcha-response']);
 
 ?>
 <form action="#" method="post">
@@ -42,4 +42,5 @@ if(isset($_REQUEST['g-recaptcha-response'])) print_r($_REQUEST['g-recaptcha-resp
     alert("grecaptcha is ready!");
   };
 </script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 </body>
