@@ -27,4 +27,12 @@ sasasasasssaas
   attribution=setup_tool
   page_id="185117042183190">
 </div>
+asdasdasdawwwwwww
+<div class="g-recaptcha" data-sitekey="6Lf3IGEUAAAAAJyK9DE3jerCcq7l6L7csBAA8Mbg"></div>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script type="text/javascript">
+  var onloadCallback = function() {
+    alert("grecaptcha is ready!");
+  };
+</script>
 </body>
