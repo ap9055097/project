@@ -10,7 +10,7 @@ echo "Hello LINE BOT<br>";
 <head>
 </head>
 <body>
-<div class="fb-customerchat" page_id="c801e6ccfb7ca96869663ece097ae54a"></div>
+<div class="fb-customerchat" page_id="185117042183190"></div>
 ssss
 <script>
   window.fbAsyncInit = function() {
